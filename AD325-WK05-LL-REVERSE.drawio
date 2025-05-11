@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.3">
+  <diagram name="Page-1" id="hiy0SOJmD_XGzU4fvPQ9">
+    <mxGraphModel dx="612" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TB7nKIpUuK9HSaoaJXS9-7" value="&lt;div&gt;SSN: 9 digit&lt;/div&gt;&lt;div&gt;Age: string for dob &lt;br&gt;&lt;/div&gt;&lt;div&gt;Full Name: first, last, middle&lt;/div&gt;&lt;div&gt;self.next = None&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TB7nKIpUuK9HSaoaJXS9-8" value="&lt;div&gt;test_ssn&lt;/div&gt;&lt;div&gt;test_age&lt;/div&gt;&lt;div&gt;test_name&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;test_emptyList&lt;/div&gt;&lt;div&gt;test_sample1&lt;/div&gt;&lt;div&gt;test_sample2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TB7nKIpUuK9HSaoaJXS9-9" value="&lt;div&gt;do not modify existing lists&lt;/div&gt;&lt;div&gt;duplicates ok&lt;/div&gt;&lt;div&gt;sort by ssn&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="80" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TB7nKIpUuK9HSaoaJXS9-10" value="&lt;div&gt;def merge(self, l1: LinkedList, l2: LinkedList -&amp;gt; LinkedList&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;l3 = LinkedList()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;current_l1 = l1.head&lt;/div&gt;&lt;div&gt;current_l2 = l2.head&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;while current_l1 and current_l2:&lt;/div&gt;&lt;div&gt;if current_l1.ssn &amp;lt;= current_l2.ssn:&lt;/div&gt;&lt;div&gt;l3.append(current_l1)&lt;/div&gt;&lt;div&gt;current_l1 = current_l1.next&lt;/div&gt;&lt;div&gt;else:&lt;/div&gt;&lt;div&gt;l3.append(current_l2)&lt;/div&gt;&lt;div&gt;current_l2 = current_l2.next&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;while current_l1: #if l1 is bigger&lt;/div&gt;&lt;div&gt;l3.append(current_1)&lt;/div&gt;&lt;div&gt;current_1 = current_1.next&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;while current_l2: #if l2 is bigger&lt;/div&gt;&lt;div&gt;l3.append(current_2)&lt;/div&gt;&lt;div&gt;current_2 = current_2.next&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;return l3&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5" y="630" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TB7nKIpUuK9HSaoaJXS9-11" value="class Node" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TB7nKIpUuK9HSaoaJXS9-12" value="&lt;div&gt;class Linked List:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;self.head = None&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;def append(self, node):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;new_node = node&lt;/div&gt;&lt;div&gt;new_node.next = None&lt;/div&gt;&lt;div&gt;if self.head is None:&lt;/div&gt;&lt;div&gt;self.head = new_node&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;current = self.head&lt;/div&gt;&lt;div&gt;while current:&lt;/div&gt;&lt;div&gt;current = current.next&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;current.next = new_node&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="260" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TB7nKIpUuK9HSaoaJXS9-13" value="&lt;div&gt;Time Complexity: O(n+m)&lt;/div&gt;&lt;div&gt;Space Complexity: O (n+m)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="450" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
